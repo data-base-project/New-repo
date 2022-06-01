@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OYOUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home page abdo/css/normalize.css" />
+    <link rel="stylesheet" href="Home page abdo/css/landing.css" />
+    <link rel="stylesheet" href="Home page abdo/css/all.min.css" />
+    <link rel="stylesheet" href="Home page abdo/sign up/css/all.min.css" />
+    <link rel="stylesheet" href="Home page abdo/sign up/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="container">
+        <a class="logo" href="Home page abdo/index.html"
+          ><i class="fa fa-eye ey"></i>YOUN</a
+        >
+        <i class="fas fa-bars menu"></i>
+        <ul class="main-nav">
+          <li><a href="Home page abdo/index.html">Home</a></li>
+          <li><a href="Home page abdo/index.html#about">About Us</a></li>
+          <li><a href="Home page abdo/index.html#contact">Contact Us</a></li>
+          <div class="active">
+            <a href="Home page abdo/sign in/index.html">Sign in</a>
+          </div>
+          <div class="active">
+            <a href="Home page abdo/sign up/index.html">Sign Up</a>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="title">Registration</h1>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details"> Full name </span>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Address </span>
+            <input type="text" placeholder="Enter your Address" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Mobil Number </span>
+            <input type="text" placeholder="Enter your Mobil number" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Select your doctor </span>
+            <input
+              type="text"
+              list="Doctor name"
+              placeholder="Select your doctor"
+              required
+            />
+            <datalist id="Doctor name">
+              <option value="Radwan"></option>
+              <option value="Ahmed"></option>
+              <option value="Mostafa"></option>
+              <option value="Abdo"></option>
+              <option value="Ammar"></option>
+            </datalist>
+          </div>
+          <div class="input-box">
+            <span class="details"> Dr's ID </span>
+            <input type="text" placeholder="Enter Doctor ID" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Email </span>
+            <input type="text" placeholder="oyoun@example" required />
+          </div>
+          <div class="input-box">
+            <span class="details"> Date </span>
+            <input type="date" placeholder="" required />
+          </div>
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details"> your massage </span>
+              <input
+                type="text"
+                class="input-box"
+                placeholder="Tell Us About Your Needs"
+                name="message"
+              ></>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix">
+          <button type="reset" class="cancelbtn">Reset</button>
+          <button type="submit" class="signupbtn">Delete</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
